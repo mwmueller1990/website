@@ -1,0 +1,36 @@
+---
+title: "Teaching"
+---
+
+# Teaching
+
+## Toulouse School of Economics
+
+Experimental Methods (MRes)
+: Fall 2023, 2024, 2025, 2026
+
+Behavioral Economics (M2 ETE)
+: Spring 2024, 2026
+
+Behavioral Development Economics (MRes)
+: Spring 2025, 2026
+
+## UC Berkeley
+
+Graduate student instructor, 2016–2021: Intermediate Microeconomics seven
+times and Psychology and Economics once, plus one semester as head GSI. In
+Spring 2019 I taught the Intermediate Microeconomics lecture to about 400
+students.
+[Outstanding GSI Award](https://gsi.berkeley.edu/programs-services/award-programs/ogsi/), 2018.
+<!-- TODO: re-add links to your teaching evaluations once they are in
+     papers/ (e.g. papers/teaching-evaluations.pdf). -->
+
+# Advising
+
+I am always happy to talk about research ideas related to my work, whether you
+are a TSE student, a student elsewhere, a researcher, or a practitioner. If
+you are curious to talk, just send me an
+[email](mailto:maximilian.muller@tse-fr.eu).
+
+At TSE I run the BID Workshop for PhD students (since 2023) and co-advise
+[Lony Bessagnet](https://sites.google.com/view/lonybessagnet/home).

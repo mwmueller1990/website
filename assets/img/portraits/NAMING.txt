@@ -1,0 +1,38 @@
+Portrait files go here. The filenames must match the STAGES list in
+assets/js/portrait.js exactly:
+
+  undergrad.jpg
+  mphil.jpg
+  phd-start.jpg
+  phd-end.jpg
+  postdoc.jpg
+  ap-start.jpg
+  ap-now.jpg
+
+The files currently in this folder are grey placeholders so the stepper
+works out of the box. Overwrite them with your photos, same filenames.
+
+Preparation, in order of how much it matters:
+
+1. Crop every photo to 4:5 (portrait). The CSS frame is locked to that
+   ratio, so anything else gets cropped by the browser and you lose
+   control of the framing.
+
+2. Put your eyes at roughly the same height in every frame, about a third
+   of the way down, and keep your head about the same size. This is the
+   whole trick. Consistent framing makes the sequence read as one person
+   ageing. Inconsistent framing makes it read as a shoebox of snapshots.
+
+3. Export at 800x1000 pixels, JPEG quality 80. That is plenty for a
+   150px-wide display slot on a retina screen, and keeps the total
+   payload of all seven photos under about 400 KB.
+
+4. Convert to greyscale if the colour grading varies wildly between a
+   2011 phone camera and a 2026 one. Optional, but it hides a multitude
+   of sins and looks deliberate.
+
+Free tools that do all of this: GIMP, Photopea (browser, no install), or
+ImageMagick from the command line:
+
+  magick input.jpg -resize 800x1000^ -gravity center -extent 800x1000 \
+    -quality 80 undergrad.jpg

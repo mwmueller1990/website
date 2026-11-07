@@ -1,0 +1,381 @@
+/* ==========================================================================
+   Maximilian W. Müller — site styles
+
+   Design notes, so future-you knows what the choices were:
+
+   - One typeface (Source Serif 4) at three sizes. A single well-set family
+     reads as more deliberate than two families used casually.
+   - Text column fixed at 620px (~70 characters), set in _quarto.yml under
+     grid: body-width. The single most important number. Do not widen it.
+   - Colour appears in exactly one place: links. Everything else is ink,
+     muted ink, and rule.
+   - The paper white is #FCFBF8 — warm, but deliberately lighter than the
+     cream that every academic template reaches for.
+   ========================================================================== */
+
+/* ------------------------------------------------------------ base ---- */
+
+/* Colours, fonts and the navbar/footer come from theme.scss. The text
+   column width is set by grid: body-width in _quarto.yml (620px, about
+   70 characters). That is the most important number on the site: resist
+   widening it. */
+
+:root {
+  --paper:      #FCFBF8;
+  --ink:        #1C1B19;
+  --ink-muted:  #6B6862;
+  --ink-faint:  #97948C;
+  --rule:       #E2DFD7;
+  --accent:     #2E5248;
+  --accent-lit: #47786A;
+}
+
+body {
+  font-variant-numeric: oldstyle-num proportional-nums;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+main.content { padding-bottom: 4rem; }
+
+/* --------------------------------------------------------------- navbar -- */
+
+.navbar {
+  border-bottom: 1px solid var(--rule);
+  box-shadow: none;
+  padding-top: 1.1rem;
+  padding-bottom: 0.9rem;
+}
+
+.navbar-brand,
+.navbar-title {
+  font-weight: 600;
+  letter-spacing: -0.006em;
+  font-size: 1.0625rem;
+}
+
+.navbar .nav-link { font-size: 0.9375rem; }
+
+.navbar .nav-link.active,
+.navbar .nav-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.22em;
+  text-decoration-thickness: 1px;
+}
+
+.navbar-toggler { border: none; }
+
+/* Align the navbar with the text column on wide screens, so the name sits
+   directly above the left edge of the bio. */
+@media (min-width: 992px) {
+  .navbar > .navbar-container,
+  .navbar > .container-fluid {
+    max-width: calc(620px + 3rem);
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+/* ----------------------------------------------------------- typography -- */
+
+h1, h2, h3 {
+  font-weight: 600;
+  letter-spacing: -0.008em;
+  line-height: 1.25;
+  color: var(--ink);
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin: 2.5rem 0 1.25rem;
+}
+
+/* The page title Quarto injects — usually redundant with the nav, so it is
+   hidden by default. Delete this rule if you want visible page titles. */
+#title-block-header { display: none; }
+
+h2 {
+  font-size: 1.125rem;
+  margin: 2.75rem 0 0.4rem;
+}
+
+h3 {
+  font-size: 1rem;
+  margin: 2rem 0 0.4rem;
+}
+
+p { margin: 0 0 1.05rem; }
+
+a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+  text-decoration-thickness: 0.5px;
+  text-decoration-color: rgba(46, 82, 72, 0.35);
+}
+
+a:hover {
+  color: var(--accent-lit);
+  text-decoration-color: currentColor;
+}
+
+a:focus-visible,
+button:focus-visible,
+summary:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+em { font-style: italic; }
+
+hr {
+  border: none;
+  border-top: 1px solid var(--rule);
+  margin: 2.5rem 0;
+}
+
+/* ------------------------------------------------------------ home page -- */
+
+.bio {
+  display: grid;
+  grid-template-columns: 9.25rem minmax(0, 1fr);
+  gap: 1.75rem;
+  align-items: start;
+  margin: 2.25rem 0 3rem;
+}
+
+@media (max-width: 34rem) {
+  .bio { grid-template-columns: 1fr; gap: 1.25rem; }
+  .portrait-figure { max-width: 9.25rem; }
+}
+
+.bio-text p:first-child { margin-top: 0; }
+
+.bio-links {
+  font-size: 0.9375rem;
+  color: var(--ink-muted);
+  margin-bottom: 0;
+}
+
+.bio-links a { margin-right: 0.9rem; }
+
+/* --------------------------------------------------- portrait  stepper -- */
+
+.portrait-figure { margin: 0; }
+
+.portrait-frame {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 5;          /* fixed, so swapping never shifts layout */
+  overflow: hidden;
+  border-radius: 3px;
+  background: #EFEDE7;
+}
+
+.portrait-frame img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.portrait-caption {
+  margin: 0.55rem 0 0;
+  font-size: 0.8125rem;
+  line-height: 1.4;
+  color: var(--ink-muted);
+  min-height: 2.3em;             /* reserves room for two lines */
+}
+
+.portrait-caption .year {
+  display: block;
+  color: var(--ink-faint);
+}
+
+.portrait-ticks {
+  display: flex;
+  gap: 4px;
+  margin-top: 0.6rem;
+}
+
+.portrait-ticks button {
+  flex: 1;
+  height: 4px;
+  min-width: 10px;
+  padding: 0;
+  border: none;
+  border-radius: 2px;
+  background: var(--rule);
+  cursor: pointer;
+  transition: background 120ms ease;
+}
+
+.portrait-ticks button:hover { background: var(--ink-faint); }
+
+.portrait-ticks button[aria-current="true"] { background: var(--ink); }
+
+/* Larger hit area for touch without changing the visual size */
+.portrait-ticks button::before {
+  content: "";
+  position: absolute;
+  margin: -10px 0 0 -2px;
+  width: calc(100% + 4px);
+  height: 24px;
+}
+.portrait-ticks button { position: relative; }
+
+@media (prefers-reduced-motion: reduce) {
+  .portrait-ticks button { transition: none; }
+}
+
+/* ------------------------------------------------------------- research -- */
+
+.theme {
+  margin: 2.75rem 0 0;
+}
+
+.theme-blurb {
+  color: var(--ink-muted);
+  font-size: 0.9375rem;
+  margin: 0.15rem 0 1.1rem;
+}
+
+.papers {
+  border-left: 1px solid var(--rule);
+  border-radius: 0;              /* single-sided borders never get radius */
+  padding-left: 1.15rem;
+}
+
+.paper { margin-bottom: 1.35rem; }
+.paper > p { margin: 0; }
+.theme-blurb > p { margin: 0; }
+.bio-links > p { margin: 0; }
+.paper:last-child { margin-bottom: 0; }
+
+.paper-title {
+  display: block;
+  margin-bottom: 0.15rem;
+  line-height: 1.4;
+}
+
+.paper-meta {
+  font-size: 0.8438rem;
+  color: var(--ink-muted);
+  line-height: 1.55;
+}
+
+.paper-meta a { color: var(--ink-muted); }
+.paper-meta a:hover { color: var(--accent); }
+
+.paper-meta .sep {
+  color: var(--ink-faint);
+  padding: 0 0.35rem;
+}
+
+/* Collapsible abstracts. <details> is native, keyboard-accessible, and
+   works with no JavaScript at all. */
+
+.paper details { margin-top: 0.35rem; }
+
+.paper summary {
+  display: inline;
+  cursor: pointer;
+  font-size: 0.8438rem;
+  color: var(--ink-muted);
+  list-style: none;
+}
+
+.paper summary::-webkit-details-marker { display: none; }
+.paper summary::marker { content: ""; }
+
+.paper summary:hover { color: var(--accent); }
+
+.paper details[open] summary { color: var(--ink); }
+
+.paper details > p {
+  font-size: 0.9375rem;
+  line-height: 1.6;
+  color: var(--ink);
+  margin: 0.6rem 0 0;
+  padding-left: 0.85rem;
+  border-left: 1px solid var(--rule);
+  border-radius: 0;
+}
+
+/* --------------------------------------------------------- photo pages -- */
+
+/* Masonry-style columns keep every photo at its own shape, so portrait,
+   landscape and panorama shots all appear uncropped. Panoramas span the
+   full width. */
+
+.gallery {
+  column-count: 2;
+  column-gap: 0.6rem;
+  margin: 0.75rem 0 2rem;
+}
+
+.gallery figure {
+  margin: 0 0 0.6rem;
+  break-inside: avoid;
+}
+
+.gallery figure.pano { column-span: all; }
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+  background: var(--rule);
+}
+
+@media (max-width: 34rem) {
+  .gallery { column-count: 1; }
+}
+
+.jump { font-size: 0.9375rem; margin-bottom: 1.5rem; }
+.jump p { margin: 0; }
+.jump .sep, .paper-meta .sep { color: var(--ink-faint); padding: 0 0.35rem; }
+
+.media-list p { margin-bottom: 0.9rem; }
+.media-list blockquote {
+  margin: 0.25rem 0 0.9rem;
+  padding-left: 0.85rem;
+  border-left: 1px solid var(--rule);
+  border-radius: 0;
+  color: var(--ink-muted);
+  font-size: 0.9375rem;
+}
+
+/* ------------------------------------------------------------- footer --- */
+
+.nav-footer {
+  border-top: 1px solid var(--rule);
+  font-size: 0.8125rem;
+}
+
+/* ------------------------------------------------------------- utility -- */
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* ---------------------------------------------------------------- print -- */
+
+@media print {
+  .navbar, .nav-footer, .portrait-ticks { display: none; }
+  body { background: #fff; font-size: 11pt; }
+  .paper details { display: block; }
+  .paper details > p { border: none; padding-left: 0; }
+  a { color: var(--ink); text-decoration: none; }
+}

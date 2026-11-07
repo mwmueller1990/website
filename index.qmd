@@ -1,0 +1,175 @@
+---
+title: "Research"
+pagetitle: "Maximilian W. Müller"
+description: "Behavioural economist at the Toulouse School of Economics, working on social influence, aspirations, and memory."
+include-after-body:
+  - text: |
+      <script src="assets/js/portrait.js"></script>
+---
+
+<!--
+  EDITING NOTES
+  - Fenced divs (:::) need a blank line before and after them. That is the
+    one rule that breaks a Quarto page if you forget it.
+  - PDFs live in papers/. To update a paper, overwrite its file there with the
+    same name and change the version date next to it. The link never changes.
+  - Abstracts sit inside <details> blocks, which are plain HTML: write them as
+    one paragraph between <p> and </p>. Markdown is not processed there.
+-->
+
+:::::: {.bio}
+
+{{< include _includes/portrait.html >}}
+
+::::: {.bio-text}
+
+I am an assistant professor at the [Toulouse School of Economics](https://www.tse-fr.eu/),
+a [CESifo Research Network Affiliate](https://www.cesifo.org/en/network-member/muller-maximilian-w),
+and an [IZA Associated Member](https://www.iza.org/people/staff/15994/maximilian-w-muller).
+
+I am a behavioural economist working on education and family economics. I use
+field experiments and panel data to study how the people around us, and parents
+in particular, shape what students aspire to and choose, and how we come to
+remember what we once wanted.
+
+I completed my PhD at UC Berkeley in 2022 and spent the following year as a
+postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www.briq-institute.org/).
+
+::: {.bio-links}
+
+[maximilian.muller@tse-fr.eu](mailto:maximilian.muller@tse-fr.eu)
+[CV](cv.qmd)
+[Google Scholar](https://scholar.google.com/citations?user=jmOrUokAAAAJ)
+
+:::
+
+:::::
+
+::::::
+
+<!-- ====================================================================== -->
+
+::::: {.theme}
+
+## Social influence on educational and career choices
+
+::: {.theme-blurb}
+
+Who is watching when a teenager says what they want to be, and how much that
+changes the answer.
+
+:::
+
+:::: {.papers}
+
+::: {.paper}
+
+[Under parents' watch: the effect of parental observability on educational choices]{.paper-title}
+
+[[pdf](papers/under-parents-watch.pdf)[·]{.sep}July 2026[·]{.sep}[Pre-registration](https://www.socialscienceregistry.org/trials/4654)[·]{.sep}Previously circulated as "Parental pressure and educational choices"[·]{.sep}Coverage: [Teach Economy](https://www.teacheconomy.de/aktuelles/elterneinfluss-auf-karriereentscheidungen/), [Berkeley Social Science Matrix](https://matrix.berkeley.edu/research-article/economic-benefits-of-higher-education-zach-bleemer-and-maximilian-muller/)]{.paper-meta}
+
+<details>
+<summary>Abstract</summary>
+<p>This paper tests for parental observability as a driver of students' post-secondary educational choices and as a mechanism behind socio-economic disparities in college attendance. I conduct a field experiment in Germany randomising whether students' stated aspirations are shared with parents. Parental observability strongly influences stated college aspirations and field rankings, triggering opposite reactions at different school types and doubling the socio-economic gap in college aspirations from 13 to 26 percentage points. While aspirations stated under parental observability better predict actual choices, aspirations elicited in private better predict satisfaction, persistence, and performance in the chosen field. Students' stated motives point to the desire for parental recognition, rather than open conflict avoidance or salience of parental constraints, as the concern behind these adjustments.</p>
+</details>
+
+:::
+
+::: {.paper}
+
+[Under pressure? Experimental evidence of parental and peer observability on students' occupational aspirations]{.paper-title}
+
+[With [Lea Cassar](https://leacassar.com/), [Christina Felfe de Ormeño](https://www.christinafelfe.com/), and Denise Feigl]{.paper-meta}
+
+<details>
+<summary>Abstract</summary>
+<p>We provide causal evidence on how perceived parental and peer pressure shape students' occupational aspirations, and trace these effects across school years to identify when external influences first emerge. In a randomised controlled trial with 2,840 secondary school students in Germany, we vary the observability of stated occupational aspirations to parents or peers. Making aspirations visible reinforces stereotypical aspirations, increasing the STEM gender gap by 40 per cent under peer observability and nearly doubling it under parental observability, with effects emerging as early as sixth grade.</p>
+</details>
+
+:::
+
+::: {.paper}
+
+[Improving early horizontal tracking: an RCT on boosting cooperative decision-making between parents and children]{.paper-title}
+
+[In progress[·]{.sep}With [Lea Cassar](https://leacassar.com/), [Christina Felfe de Ormeño](https://www.christinafelfe.com/), and [Karoline Ströhlein](https://sites.google.com/view/karolinestroehlein/home)]{.paper-meta}
+
+:::
+
+::: {.paper}
+
+[Social influence in prosocial giving]{.paper-title}
+
+[In progress[·]{.sep}With [Jonas Radbruch](https://sites.google.com/site/jonasradbruch01/)]{.paper-meta}
+
+:::
+
+::::
+
+:::::
+
+<!-- ====================================================================== -->
+
+::::: {.theme}
+
+## Memory, identity, and belief about oneself
+
+::: {.theme-blurb}
+
+How people revise their own past preferences to match the lives they ended up
+living.
+
+:::
+
+:::: {.papers}
+
+::: {.paper}
+
+[Selective memory of past aspirations]{.paper-title}
+
+[[pdf](papers/selective-memory.pdf)[·]{.sep}July 2022[·]{.sep}[Pre-registration](https://www.socialscienceregistry.org/trials/1191)[·]{.sep}Discussed in [Roland Bénabou's 2021 Laffont Prize lecture](https://www.youtube.com/watch?v=5EIf2_ySklI&t=3860s)]{.paper-meta}
+
+<details>
+<summary>Abstract</summary>
+<p>Selective memory can lead people to mistake life outcomes as what they always wanted. Using data on past fertility desires from a panel tracking fertility preferences and actual fertility for 3,936 Kenyans from their early twenties to their thirties, I provide monetary incentives to remember and to be reminded of past desires. I find that 29 per cent of respondents have more children by their thirties than once desired; that despite incentives, respondents with excess fertility misremember past desires in the direction of current fertility and do not want to be reminded of them, consistent with motivated memory; and that selective memory affects the intergenerational transmission of fertility preferences.</p>
+</details>
+
+:::
+
+::: {.paper}
+
+[The price of identity: overoptimism and congruence concerns]{.paper-title}
+
+[[pdf](papers/price-of-identity.pdf)[·]{.sep}April 2026[·]{.sep}[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4670092)[·]{.sep}Revise and resubmit, *American Economic Journal: Applied Economics*[·]{.sep}With [Eugen Dimant](https://sites.google.com/view/eugendimant/home), [Kwabena Donkor](https://sites.google.com/view/kbdonkor/), [Lorenz Götte](https://fass.nus.edu.sg/ecs/people/lorenz-goette/), and [Michael Kurschilgen](https://www.kurschilgen.com/)[·]{.sep}Coverage: [Stanford GSB Insights](https://www.gsb.stanford.edu/insights/what-soccer-fans-can-teach-us-about-making-irrational-decisions)]{.paper-meta}
+
+<details>
+<summary>Abstract</summary>
+<p>We study how social identity distorts both beliefs and preferences in investment decision-making. We ran framed field experiments in online sports betting with Kenyan and UK soccer fans during the 2021/22 Premier League season, eliciting subjective probabilities and incentivized bets on matches that sometimes involve a participant's supported team and sometimes do not. Supporters overestimate their team's win probability by 10–18 percent relative to neutral bettors and allocate about 20 percent more of their budget to bets on their own team than to otherwise similar matches where they are neutral. Embedding these data in a portfolio-choice model, we separate the role of distorted beliefs from that of identity-driven preferences. Distorted beliefs explain 30–44 percent of the excess investment in favored teams, while the remaining 56–70 percent reflects an aversion to profiting when one's team loses, equivalent to valuing payoffs from such outcomes by 17–27 percent less. Exploiting variation in both recent and season-long performance, we show that this preference to avoid “disloyal” gains is stronger when teams perform poorly. Using the estimated model, we calculate welfare losses from identity-driven distortions of roughly 0.5–2.7 percent of betting budgets, with the exact magnitude depending on whether identity preferences are seen as welfare-relevant or as mistakes.</p>
+</details>
+
+:::
+
+::: {.paper}
+
+[The illusion of stable fertility preferences]{.paper-title}
+
+[*Population Studies*, 2022[·]{.sep}With [Joan Hamory](https://jhamory.oucreate.com/), [Jennifer Johnson-Hanks](https://sociology.berkeley.edu/faculty/jennifer-johnson-hanks), and [Edward Miguel](http://emiguel.econ.berkeley.edu/)[·]{.sep}[pdf](https://www.tandfonline.com/eprint/BIWMPSZBZZTCGXVF8RQK/full?target=10.1080%2F00324728.2022.2057577)[·]{.sep}[Replication data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FYUB9K9)[·]{.sep}Coverage: [Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2019/05/do-people-really-even-know-what-they-wanted.html)]{.paper-meta}
+
+<details>
+<summary>Abstract</summary>
+<p>Fertility preferences have long played a key role in models of fertility differentials and change. We examine the stability of preferences over time using panel data on Kenyan women's fertility desires, expectations, actual fertility, and recall of desires across three waves over nine years. Although desired fertility is quite unstable, most women perceive their desires to be stable. Few expect their desired fertility to increase over time but such increases are common, and when asked to recall past desires, most respondents report previously wanting exactly as many children as they desire today.</p>
+</details>
+
+:::
+
+::: {.paper}
+
+[Selective memory of past educational goals]{.paper-title}
+
+[In progress[·]{.sep}With [Ao Wang](https://www.ao-wang.org/) and [Lony Bessagnet](https://sites.google.com/view/lonybessagnet/home)]{.paper-meta}
+
+:::
+
+::::
+
+:::::
