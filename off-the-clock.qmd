@@ -207,7 +207,7 @@ Maximilian Müller is the German equivalent of "John Smith" in the US. Thanks to
 
 ```{=html}
 <div class="gallery">
-<figure><img src="assets/img/cycling/placeholder-san-francisco.jpg" alt="Placeholder: photo to come." width="1400" height="909" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/san-francisco-04.jpg" alt="Road cycling: San Francisco." width="1280" height="831" loading="lazy" decoding="async"></figure>
 <figure><img src="assets/img/cycling/san-francisco-01.jpg" alt="Road cycling: San Francisco, photo 1." width="1400" height="909" loading="lazy" decoding="async"></figure>
 <figure><img src="assets/img/cycling/san-francisco-02.jpg" alt="Road cycling: San Francisco, photo 2." width="1400" height="909" loading="lazy" decoding="async"></figure>
 <figure><img src="assets/img/cycling/san-francisco-03.jpg" alt="Road cycling: San Francisco, photo 3." width="1400" height="908" loading="lazy" decoding="async"></figure>
@@ -243,11 +243,38 @@ Maximilian Müller is the German equivalent of "John Smith" in the US. Thanks to
 
 ```{=html}
 <div class="gallery">
-<figure class="pano"><img src="assets/img/cycling/placeholder-montenegro-1.jpg" alt="Placeholder: photo to come." width="1400" height="501" loading="lazy" decoding="async"></figure>
+<figure class="pano"><img src="assets/img/cycling/montenegro-04.jpg" alt="Road cycling: Montenegro." width="1280" height="458" loading="lazy" decoding="async"></figure>
 <figure class="pano"><img src="assets/img/cycling/montenegro-01.jpg" alt="Road cycling: Montenegro, photo 1." width="1331" height="476" loading="lazy" decoding="async"></figure>
 <figure><img src="assets/img/cycling/montenegro-02.jpg" alt="Road cycling: Montenegro, photo 2." width="1400" height="909" loading="lazy" decoding="async"></figure>
-<figure><img src="assets/img/cycling/placeholder-montenegro-2.jpg" alt="Placeholder: photo to come." width="1400" height="909" loading="lazy" decoding="async"></figure>
-<figure><img src="assets/img/cycling/placeholder-montenegro-3.jpg" alt="Placeholder: photo to come." width="1400" height="909" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/montenegro-05.jpg" alt="Road cycling: Montenegro." width="1280" height="831" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/montenegro-06.jpg" alt="Road cycling: Montenegro." width="1280" height="831" loading="lazy" decoding="async"></figure>
 <figure><img src="assets/img/cycling/montenegro-03.jpg" alt="Road cycling: Montenegro, photo 3." width="1400" height="908" loading="lazy" decoding="async"></figure>
+</div>
+```
+
+### Mallorca
+
+```{=html}
+<div class="gallery">
+<figure><img src="assets/img/cycling/mallorca-01.jpg" alt="Bike leaning on a wooden rail above a road winding down a rocky gorge to the sea." width="1400" height="1050" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/mallorca-02.jpg" alt="Bike against a stone wall above a turquoise cove beneath limestone cliffs." width="1400" height="1050" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/mallorca-03.jpg" alt="Mountain road curving along a stone wall high above a bay." width="1400" height="1050" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/mallorca-04.jpg" alt="Bike at a balustraded viewpoint above hairpin bends and sea cliffs." width="1050" height="1400" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/mallorca-05.jpg" alt="Road climbing through pine trees with the sun breaking through." width="1050" height="1400" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/mallorca-06.jpg" alt="Quiet road heading towards limestone peaks under a clear sky." width="1050" height="1400" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/mallorca-07.jpg" alt="Narrow lane between a dry-stone wall and cypresses, with twin rock peaks ahead." width="1050" height="1400" loading="lazy" decoding="async"></figure>
+</div>
+```
+
+### Girona
+
+```{=html}
+<div class="gallery">
+<figure><img src="assets/img/cycling/girona-01.jpg" alt="Road curving along a wooded valley under a bright sky." width="1050" height="1400" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/girona-02.jpg" alt="Hairpin bend above forested hills, with a cyclist stopped at the guardrail." width="1400" height="1050" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/girona-03.jpg" alt="Hilltop village with a bell tower above a wide plain at dusk." width="1400" height="1050" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/girona-04.jpg" alt="Road climbing between trees towards a crest." width="1050" height="1400" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/girona-05.jpg" alt="Stone church with a bell tower above forested hills." width="1400" height="1050" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/girona-06.jpg" alt="Bike on a bridge over the Onyar river in Girona, with colourful houses along the banks." width="1050" height="1400" loading="lazy" decoding="async"></figure>
 </div>
 ```
