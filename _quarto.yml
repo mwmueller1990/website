@@ -23,7 +23,7 @@ website:
       - href: index.qmd
         text: Research
       - href: teaching.qmd
-        text: Teaching
+        text: Teaching & Advising
       - href: cv.qmd
         text: CV
       - href: off-the-clock.qmd
