@@ -4,9 +4,9 @@
  * No dependencies. Degrades to a single static photo if JS is off.
  *
  * To change the photos: edit STAGES below and drop matching files into
- * assets/img/portraits/. Keep them in chronological order — the last
- * entry is what loads by default, because the main job of the photo is
- * still letting someone recognise you at a conference.
+ * assets/img/portraits/. Keep them in chronological order. DEFAULT_FILE below
+ * sets which photo loads first; if you change it, also change the src,
+ * alt and caption in _includes/portrait.html to match.
  *
  * Crop every photo to the same 4:5 ratio with your head at roughly the
  * same size and position in frame. That consistency is what makes the
@@ -36,7 +36,9 @@
 
   if (!img || !ticks) return;
 
-  var current = STAGES.length - 1;
+  var DEFAULT_FILE = "phd-end.jpg";
+  var current = STAGES.findIndex(function (s) { return s.file === DEFAULT_FILE; });
+  if (current < 0) current = STAGES.length - 1;
   var buttons = [];
 
   function show(i) {

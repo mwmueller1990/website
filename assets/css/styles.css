@@ -337,6 +337,23 @@ hr {
   .gallery { column-count: 1; }
 }
 
+.namesake-photo {
+  max-width: 17rem;
+  margin: 1.25rem 0 1.5rem;
+}
+.namesake-photo img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 3px;
+}
+.namesake-photo figcaption {
+  font-size: 0.8125rem;
+  color: var(--ink-muted);
+  margin-top: 0.4rem;
+  font-style: italic;
+}
+
 .jump { font-size: 0.9375rem; margin-bottom: 1.5rem; }
 .jump p { margin: 0; }
 .jump .sep, .paper-meta .sep { color: var(--ink-faint); padding: 0 0.35rem; }

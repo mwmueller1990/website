@@ -112,6 +112,13 @@ Maximilian Müller is the German equivalent of "John Smith" in the US. Thanks to
 - Max Müller, [philologist and Sanskrit scholar](https://en.wikipedia.org/wiki/Max_M%C3%BCller)
 - Maximilian Müller, [German hockey player and Olympic gold winner](https://en.wikipedia.org/wiki/Maximilian_M%C3%BCller)
 
+```{=html}
+<figure class="namesake-photo">
+<img src="assets/img/max-height.jpg" alt="Maximilian standing under a car park height barrier that reads MAX HEIGHT (2.0 METRES), pointing up at the sign." width="965" height="1000" loading="lazy" decoding="async">
+<figcaption>A namesake I keep running into.</figcaption>
+</figure>
+```
+
 *To be continued...*
 
 ## Cycling {#cycling}
