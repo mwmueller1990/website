@@ -53,13 +53,6 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 ## Social influence on educational and career choices
 
-::: {.theme-blurb}
-
-Who is watching when a teenager says what they want to be, and how much that
-changes the answer.
-
-:::
-
 :::: {.papers}
 
 ::: {.paper}
@@ -113,13 +106,6 @@ changes the answer.
 ::::: {.theme}
 
 ## Memory, identity, and belief about oneself
-
-::: {.theme-blurb}
-
-How people revise their own past preferences to match the lives they ended up
-living.
-
-:::
 
 :::: {.papers}
 
