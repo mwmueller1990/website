@@ -110,7 +110,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 [The price of identity: overoptimism and congruence concerns]{.paper-title}
 
-[[pdf](papers/price-of-identity.pdf)[·]{.sep}April 2026[·]{.sep}[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4670092)[·]{.sep}Revise and resubmit, *American Economic Journal: Applied Economics*[·]{.sep}With [Eugen Dimant](https://sites.google.com/view/eugendimant/home), [Kwabena Donkor](https://sites.google.com/view/kbdonkor/), [Lorenz Götte](https://fass.nus.edu.sg/ecs/people/lorenz-goette/), and [Michael Kurschilgen](https://www.kurschilgen.com/)[·]{.sep}Coverage: [Stanford GSB Insights](https://www.gsb.stanford.edu/insights/what-soccer-fans-can-teach-us-about-making-irrational-decisions)]{.paper-meta}
+[[pdf](papers/price-of-identity.pdf)[·]{.sep}April 2026[·]{.sep}[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4670092)[·]{.sep}Revise and resubmit, *American Economic Journal: Applied Economics*[·]{.sep}With [Eugen Dimant](https://eugendimant.github.io/), [Kwabena Donkor](https://kwabenadonkor.github.io/), [Lorenz Götte](https://fass.nus.edu.sg/ecs/people/lorenz-goette/), and [Michael Kurschilgen](https://www.kurschilgen.com/)[·]{.sep}Coverage: [Stanford GSB Insights](https://www.gsb.stanford.edu/insights/what-soccer-fans-can-teach-us-about-making-irrational-decisions)]{.paper-meta}
 
 <details>
 <summary>Abstract</summary>
