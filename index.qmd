@@ -59,7 +59,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 [Under parents' watch: the effect of parental observability on educational choices]{.paper-title}
 
-[[pdf](papers/under-parents-watch.pdf)[·]{.sep}July 2026[·]{.sep}[Pre-registration](https://www.socialscienceregistry.org/trials/4654)[·]{.sep}Previously circulated as "Parental pressure and educational choices"[·]{.sep}Coverage: [Teach Economy](https://www.teacheconomy.de/aktuelles/elterneinfluss-auf-karriereentscheidungen/), [Berkeley Social Science Matrix](https://matrix.berkeley.edu/research-article/economic-benefits-of-higher-education-zach-bleemer-and-maximilian-muller/)]{.paper-meta}
+[[pdf](papers/under-parents-watch.pdf)[·]{.sep}July 2026[·]{.sep}Previously circulated as "Parental pressure and educational choices"[·]{.sep}Coverage: [Teach Economy](https://www.teacheconomy.de/aktuelles/elterneinfluss-auf-karriereentscheidungen/), [Berkeley Social Science Matrix](https://matrix.berkeley.edu/research-article/economic-benefits-of-higher-education-zach-bleemer-and-maximilian-muller/)]{.paper-meta}
 
 <details>
 <summary>Abstract</summary>
@@ -81,22 +81,6 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 :::
 
-::: {.paper}
-
-[Improving early horizontal tracking: an RCT on boosting cooperative decision-making between parents and children]{.paper-title}
-
-[In progress[·]{.sep}With [Lea Cassar](https://leacassar.com/), [Christina Felfe de Ormeño](https://www.christinafelfe.com/), and [Karoline Ströhlein](https://sites.google.com/view/karolinestroehlein/home)]{.paper-meta}
-
-:::
-
-::: {.paper}
-
-[Social influence in prosocial giving]{.paper-title}
-
-[In progress[·]{.sep}With [Jonas Radbruch](https://sites.google.com/site/jonasradbruch01/)]{.paper-meta}
-
-:::
-
 ::::
 
 :::::
@@ -113,7 +97,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 [Selective memory of past aspirations]{.paper-title}
 
-[[pdf](papers/selective-memory.pdf)[·]{.sep}July 2022[·]{.sep}[Pre-registration](https://www.socialscienceregistry.org/trials/1191)[·]{.sep}Discussed in [Roland Bénabou's 2021 Laffont Prize lecture](https://www.youtube.com/watch?v=5EIf2_ySklI&t=3860s)]{.paper-meta}
+[[pdf](papers/selective-memory.pdf)[·]{.sep}July 2022[·]{.sep}Discussed in [Roland Bénabou's 2021 Laffont Prize lecture](https://www.youtube.com/watch?v=5EIf2_ySklI&t=3860s)]{.paper-meta}
 
 <details>
 <summary>Abstract</summary>
