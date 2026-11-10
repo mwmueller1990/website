@@ -115,7 +115,7 @@ Maximilian Müller is the German equivalent of "John Smith" in the US. Thanks to
 ```{=html}
 <figure class="namesake-photo">
 <img src="assets/img/max-height.jpg" alt="Maximilian standing under a car park height barrier that reads MAX HEIGHT (2.0 METRES), pointing up at the sign." width="965" height="1000" loading="lazy" decoding="async">
-<figcaption>A namesake I keep running into.</figcaption>
+<figcaption>And who is this Max Height?</figcaption>
 </figure>
 ```
 
