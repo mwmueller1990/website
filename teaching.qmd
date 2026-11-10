@@ -6,6 +6,9 @@ title: "Teaching"
 
 ## Toulouse School of Economics
 
+Causal Inference (M2 PPD)
+: Fall 2026
+
 Experimental Methods (MRes)
 : Fall 2023, 2024, 2025, 2026
 
