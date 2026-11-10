@@ -72,11 +72,11 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 [Under pressure? Experimental evidence of parental and peer observability on students' occupational aspirations]{.paper-title}
 
-[With [Lea Cassar](https://leacassar.com/), [Christina Felfe de Ormeño](https://www.christinafelfe.com/), and Denise Feigl]{.paper-meta}
+[[pdf](papers/under-pressure.pdf)[·]{.sep}November 2026[·]{.sep}With [Lea Cassar](https://leacassar.com/), Denise Feigl, and [Christina Felfe de Ormeño](https://www.christinafelfe.com/)]{.paper-meta}
 
 <details>
 <summary>Abstract</summary>
-<p>We provide causal evidence on how perceived parental and peer pressure shape students' occupational aspirations, and trace these effects across school years to identify when external influences first emerge. In a randomised controlled trial with 2,840 secondary school students in Germany, we vary the observability of stated occupational aspirations to parents or peers. Making aspirations visible reinforces stereotypical aspirations, increasing the STEM gender gap by 40 per cent under peer observability and nearly doubling it under parental observability, with effects emerging as early as sixth grade.</p>
+<p>We provide causal evidence on how perceived social pressure shapes students' occupational aspirations, tracing when such influences first emerge across school years. In a randomized control trial with 2,840 secondary school students, we vary the observability of stated occupational aspirations to parents or peers. Making aspirations visible reinforces stereotypical choices, increasing the STEM gender gap by 76% under parental and by 39% under peer observability, with effects already emerging in sixth grade. Notably, beliefs about occupations shift after aspirations were elicited under parental observability, raising caution about using them as causal determinants of career choices. Our findings highlight the need for interventions addressing social dynamics early, before aspirations adapt to pressure.</p>
 </details>
 
 :::

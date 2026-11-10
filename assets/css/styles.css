@@ -5,8 +5,9 @@
 
    - One typeface (Source Serif 4) at three sizes. A single well-set family
      reads as more deliberate than two families used casually.
-   - Text column fixed at 620px (~70 characters), set in _quarto.yml under
-     grid: body-width. The single most important number. Do not widen it.
+   - Page column is 860px, set in _quarto.yml under grid: body-width.
+     Running text is capped separately by the line length rule (~44rem, about
+     75 characters) so long paragraphs stay comfortable to read.
    - Colour appears in exactly one place: links. Everything else is ink,
      muted ink, and rule.
    - The paper white is #FCFBF8 — warm, but deliberately lighter than the
@@ -16,9 +17,8 @@
 /* ------------------------------------------------------------ base ---- */
 
 /* Colours, fonts and the navbar/footer come from theme.scss. The text
-   column width is set by grid: body-width in _quarto.yml (620px, about
-   70 characters). That is the most important number on the site: resist
-   widening it. */
+   column width is set by grid: body-width in _quarto.yml (860px). Long
+   paragraphs are capped at about 75 characters by the rules below. */
 
 :root {
   --paper:      #FCFBF8;
@@ -70,7 +70,7 @@ main.content { padding-bottom: 4rem; }
 @media (min-width: 992px) {
   .navbar > .navbar-container,
   .navbar > .container-fluid {
-    max-width: calc(620px + 3rem);
+    max-width: calc(860px + 3rem);
     margin: 0 auto;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
@@ -136,11 +136,25 @@ hr {
   margin: 2.5rem 0;
 }
 
+/* --------------------------------------------------------- line length -- */
+
+/* The page is wide, but running text is capped so lines stay readable. */
+main.content > p,
+main.content > ul,
+main.content > ol,
+main.content > dl,
+main.content > blockquote,
+.bio-text,
+.media-list,
+.paper details > p {
+  max-width: 44rem;
+}
+
 /* ------------------------------------------------------------ home page -- */
 
 .bio {
   display: grid;
-  grid-template-columns: 13rem minmax(0, 1fr);
+  grid-template-columns: 16rem minmax(0, 1fr);
   gap: 1.75rem;
   align-items: start;
   margin: 2.25rem 0 3rem;
@@ -308,22 +322,23 @@ hr {
 
 /* --------------------------------------------------------- photo pages -- */
 
-/* Masonry-style columns keep every photo at its own shape, so portrait,
-   landscape and panorama shots all appear uncropped. Panoramas span the
-   full width. */
+/* Photos fill rows left to right. Each photo keeps its own shape (nothing
+   is cropped) and rows stretch to the full width. Panoramas automatically
+   get a wider share of their row. */
 
 .gallery {
-  column-count: 2;
-  column-gap: 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
   margin: 0.75rem 0 2rem;
 }
 
 .gallery figure {
-  margin: 0 0 0.6rem;
-  break-inside: avoid;
+  margin: 0;
+  flex-grow: var(--ar, 1.33);
+  flex-basis: calc(var(--ar, 1.33) * 8.5rem);
+  min-width: 0;
 }
-
-.gallery figure.pano { column-span: all; }
 
 .gallery img {
   width: 100%;
@@ -333,16 +348,23 @@ hr {
   background: var(--rule);
 }
 
+/* An invisible spacer keeps a short last row from stretching. */
+.gallery::after {
+  content: "";
+  flex-grow: 10;
+}
+
 @media (max-width: 34rem) {
-  .gallery { column-count: 1; }
+  .gallery figure { flex-basis: 100%; }
 }
 
 .namesake-photo {
-  max-width: 17rem;
+  max-width: min(17rem, 100%);
   margin: 1.25rem 0 1.5rem;
 }
 .namesake-photo img {
   width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
   border-radius: 3px;

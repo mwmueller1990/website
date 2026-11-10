@@ -236,11 +236,11 @@ page, not the visitor count.
   `$font-family-sans-serif` there and the Google Fonts URL in `_quarto.yml`.
   Newsreader, Spectral and Literata are free and all look different from the
   default.
-- **The text column width** is `grid: body-width` in `_quarto.yml`, currently
-  620px, about 70 characters per line. It is the most important number on the
-  site and the one you will be most tempted to increase. Don't. If you do change
-  it, change the matching `620px` in the navbar rule in `styles.css` too, so the
-  navbar stays aligned with the text.
+- **The page width** is `grid: body-width` in `_quarto.yml`, currently 860px.
+  If you change it, change the matching `860px` in the navbar rule in
+  `styles.css` too, so the navbar stays aligned with the content. Long
+  paragraphs are capped at about 75 characters by the "line length" rule in
+  `styles.css`, so widening the page doesn't make text hard to read.
 - **Layout and components** (bio, papers, abstracts, portrait, gallery) are in
   `assets/css/styles.css`, with comments on each section.
 

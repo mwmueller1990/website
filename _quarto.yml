@@ -38,7 +38,7 @@ format:
     theme: [cosmo, assets/css/theme.scss]
     css: assets/css/styles.css
     grid:
-      body-width: 620px
+      body-width: 860px
       sidebar-width: 0px
       margin-width: 0px
     toc: false
