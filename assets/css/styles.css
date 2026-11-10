@@ -140,7 +140,7 @@ hr {
 
 .bio {
   display: grid;
-  grid-template-columns: 9.25rem minmax(0, 1fr);
+  grid-template-columns: 13rem minmax(0, 1fr);
   gap: 1.75rem;
   align-items: start;
   margin: 2.25rem 0 3rem;
@@ -148,7 +148,7 @@ hr {
 
 @media (max-width: 34rem) {
   .bio { grid-template-columns: 1fr; gap: 1.25rem; }
-  .portrait-figure { max-width: 9.25rem; }
+  .portrait-figure { max-width: 14rem; }
 }
 
 .bio-text p:first-child { margin-top: 0; }
