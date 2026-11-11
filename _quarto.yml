@@ -10,7 +10,7 @@ project:
 website:
   title: "Maximilian W. Müller"
   site-url: "https://www.maximilianwmueller.com"
-  description: "Behavioural economist at the Toulouse School of Economics, working on social influence, aspirations, and memory."
+  description: "Behavioral economist at the Toulouse School of Economics, working on social influence, aspirations, and memory."
   favicon: assets/img/favicon.png
   open-graph: true
   twitter-card: false

@@ -123,7 +123,7 @@ Maximilian Müller is the German equivalent of "John Smith" in the US. Thanks to
 
 ## Cycling {#cycling}
 
-Below a few impressions of some cycling trips around the World. Feel free to ask for route recommendations if you're going to one of these places! And always grateful for recommendations of where to go next!
+Below a few impressions of some cycling trips around the World. Feel free to ask for route recommendations if you're going to one of these places. And always grateful for recommendations of where to go next, so feel free to send them along!
 
 ### Pyrenees
 
@@ -284,6 +284,6 @@ Below a few impressions of some cycling trips around the World. Feel free to ask
 <figure><img src="assets/img/cycling/girona-03.jpg" alt="Hilltop village with a bell tower above a wide plain at dusk." width="1400" height="1050" loading="lazy" decoding="async"></figure>
 <figure><img src="assets/img/cycling/girona-04.jpg" alt="Road climbing between trees towards a crest." width="1050" height="1400" loading="lazy" decoding="async"></figure>
 <figure><img src="assets/img/cycling/girona-05.jpg" alt="Stone church with a bell tower above forested hills." width="1400" height="1050" loading="lazy" decoding="async"></figure>
-<figure><img src="assets/img/cycling/girona-06.jpg" alt="Bike on a bridge over the Onyar river in Girona, with colourful houses along the banks." width="1050" height="1400" loading="lazy" decoding="async"></figure>
+<figure><img src="assets/img/cycling/girona-06.jpg" alt="Bike on a bridge over the Onyar river in Girona, with colorful houses along the banks." width="1050" height="1400" loading="lazy" decoding="async"></figure>
 </div>
 ```

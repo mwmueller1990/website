@@ -1,7 +1,7 @@
 ---
 title: "Research"
 pagetitle: "Maximilian W. Müller"
-description: "Behavioural economist at the Toulouse School of Economics, working on social influence, aspirations, and memory."
+description: "Behavioral economist at the Toulouse School of Economics, working on social influence, aspirations, and memory."
 include-after-body:
   - text: |
       <script src="assets/js/portrait.js"></script>
@@ -27,10 +27,11 @@ I am an assistant professor at the [Toulouse School of Economics](https://www.ts
 a [CESifo Research Network Affiliate](https://www.cesifo.org/en/network-member/muller-maximilian-w),
 and an [IZA Associated Member](https://www.iza.org/people/staff/15994/maximilian-w-muller).
 
-I am a behavioural economist working on education and family economics. I use
+I am a behavioral economist working on education and family economics. I use
 field experiments and panel data to study how the people around us, and parents
 in particular, shape what students aspire to and choose, and how we come to
-remember what we once wanted.
+remember what we once wanted, as well as the consequences of these behaviors for
+individuals and society, such as social (im-)mobility and gender gaps in STEM.
 
 I completed my PhD at UC Berkeley in 2022 and spent the following year as a
 postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www.briq-institute.org/).
@@ -63,7 +64,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 <details>
 <summary>Abstract</summary>
-<p>This paper tests for parental observability as a driver of students' post-secondary educational choices and as a mechanism behind socio-economic disparities in college attendance. I conduct a field experiment in Germany randomising whether students' stated aspirations are shared with parents. Parental observability strongly influences stated college aspirations and field rankings, triggering opposite reactions at different school types and doubling the socio-economic gap in college aspirations from 13 to 26 percentage points. While aspirations stated under parental observability better predict actual choices, aspirations elicited in private better predict satisfaction, persistence, and performance in the chosen field. Students' stated motives point to the desire for parental recognition, rather than open conflict avoidance or salience of parental constraints, as the concern behind these adjustments.</p>
+<p>This paper tests for parental observability as a driver of students' post-secondary educational choices and as a mechanism behind socio-economic disparities in college attendance. I conduct a field experiment in Germany randomizing whether students' stated aspirations are shared with parents. Parental observability strongly influences stated college aspirations and field rankings, triggering opposite reactions at different school types and doubling the socio-economic gap in college aspirations from 13 to 26 percentage points. While aspirations stated under parental observability better predict actual choices, aspirations elicited in private better predict satisfaction, persistence, and performance in the chosen field. Students' stated motives point to the desire for parental recognition, rather than open conflict avoidance or salience of parental constraints, as the concern behind these adjustments.</p>
 </details>
 
 :::
@@ -101,7 +102,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 <details>
 <summary>Abstract</summary>
-<p>Selective memory can lead people to mistake life outcomes as what they always wanted. Using data on past fertility desires from a panel tracking fertility preferences and actual fertility for 3,936 Kenyans from their early twenties to their thirties, I provide monetary incentives to remember and to be reminded of past desires. I find that 29 per cent of respondents have more children by their thirties than once desired; that despite incentives, respondents with excess fertility misremember past desires in the direction of current fertility and do not want to be reminded of them, consistent with motivated memory; and that selective memory affects the intergenerational transmission of fertility preferences.</p>
+<p>Selective memory can lead people to mistake life outcomes as what they always wanted. Using data on past fertility desires from a panel tracking fertility preferences and actual fertility for 3,936 Kenyans from their early twenties to their thirties, I provide monetary incentives to remember and to be reminded of past desires. I find that 29 percent of respondents have more children by their thirties than once desired; that despite incentives, respondents with excess fertility misremember past desires in the direction of current fertility and do not want to be reminded of them, consistent with motivated memory; and that selective memory affects the intergenerational transmission of fertility preferences.</p>
 </details>
 
 :::
