@@ -33,6 +33,7 @@ development economics.
 
 ## Selected grants and awards
 
+- [ANR-PRME grant BRIDGEGAPS](https://www.tse-fr.eu/fr/bridgegaps-combler-lacunes-matiere-capital-humain), co-investigator, €396,790, 2026
 - UniCredit Foundation 2nd Education Research Grant, €200,000, with Lea Cassar
   and Christina Felfe, 2024
 - ECONtribute funding, with Eugen Dimant, Kwabena Donkor, Lorenz Götte, and
