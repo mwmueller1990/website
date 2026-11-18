@@ -265,6 +265,22 @@ main.content > blockquote,
 }
 
 .paper { margin-bottom: 1.35rem; }
+
+/* Status line above each title: working paper in grey, R&R and
+   publications in the accent colour so they stand out. */
+.paper-status {
+  display: inline-block;
+  font-size: 1.0625rem;
+  font-variant: all-small-caps;
+  letter-spacing: 0.05em;
+  color: var(--ink-muted);
+  margin-bottom: 0.05rem;
+}
+.paper-status.highlight {
+  color: var(--accent);
+  font-weight: 600;
+}
+.paper-status em { font-style: normal; }
 .paper > p { margin: 0; }
 .theme-blurb > p { margin: 0; }
 .bio-links > p { margin: 0; }

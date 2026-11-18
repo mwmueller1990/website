@@ -58,6 +58,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 ::: {.paper}
 
+[Working paper]{.paper-status}\
 [Under parents' watch: the effect of parental observability on educational choices]{.paper-title}
 
 [[pdf](papers/under-parents-watch.pdf)[·]{.sep}July 2026[·]{.sep}Previously circulated as "Parental pressure and educational choices"[·]{.sep}Coverage: [Teach Economy](https://www.teacheconomy.de/aktuelles/elterneinfluss-auf-karriereentscheidungen/), [Berkeley Social Science Matrix](https://matrix.berkeley.edu/research-article/economic-benefits-of-higher-education-zach-bleemer-and-maximilian-muller/)]{.paper-meta}
@@ -71,6 +72,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 ::: {.paper}
 
+[Working paper]{.paper-status}\
 [Under pressure? Experimental evidence of parental and peer observability on students' occupational aspirations]{.paper-title}
 
 [[pdf](papers/under-pressure.pdf)[·]{.sep}November 2026[·]{.sep}With [Lea Cassar](https://leacassar.com/), Denise Feigl, and [Christina Felfe de Ormeño](https://www.christinafelfe.com/)]{.paper-meta}
@@ -96,6 +98,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 ::: {.paper}
 
+[Working paper]{.paper-status}\
 [Selective memory of past aspirations]{.paper-title}
 
 [[pdf](papers/selective-memory.pdf)[·]{.sep}July 2022[·]{.sep}Discussed in [Roland Bénabou's 2021 Laffont Prize lecture](https://www.youtube.com/watch?v=5EIf2_ySklI&t=3860s)]{.paper-meta}
@@ -109,9 +112,10 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 ::: {.paper}
 
+[Revise & resubmit, *American Economic Journal: Applied Economics*]{.paper-status .highlight}\
 [The price of identity: overoptimism and congruence concerns]{.paper-title}
 
-[[pdf](papers/price-of-identity.pdf)[·]{.sep}April 2026[·]{.sep}[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4670092)[·]{.sep}Revise and resubmit, *American Economic Journal: Applied Economics*[·]{.sep}With [Eugen Dimant](https://eugendimant.github.io/), [Kwabena Donkor](https://kwabenadonkor.github.io/), [Lorenz Götte](https://fass.nus.edu.sg/ecs/people/lorenz-goette/), and [Michael Kurschilgen](https://www.kurschilgen.com/)[·]{.sep}Coverage: [Stanford GSB Insights](https://www.gsb.stanford.edu/insights/what-soccer-fans-can-teach-us-about-making-irrational-decisions)]{.paper-meta}
+[[pdf](papers/price-of-identity.pdf)[·]{.sep}April 2026[·]{.sep}[SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4670092)[·]{.sep}With [Eugen Dimant](https://eugendimant.github.io/), [Kwabena Donkor](https://kwabenadonkor.github.io/), [Lorenz Götte](https://fass.nus.edu.sg/ecs/people/lorenz-goette/), and [Michael Kurschilgen](https://www.kurschilgen.com/)[·]{.sep}Coverage: [Stanford GSB Insights](https://www.gsb.stanford.edu/insights/what-soccer-fans-can-teach-us-about-making-irrational-decisions)]{.paper-meta}
 
 <details>
 <summary>Abstract</summary>
@@ -122,9 +126,10 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 ::: {.paper}
 
+[Published, *Population Studies*, 2022]{.paper-status .highlight}\
 [The illusion of stable fertility preferences]{.paper-title}
 
-[*Population Studies*, 2022[·]{.sep}With [Joan Hamory](https://jhamory.oucreate.com/), [Jennifer Johnson-Hanks](https://sociology.berkeley.edu/faculty/jennifer-johnson-hanks), and [Edward Miguel](http://emiguel.econ.berkeley.edu/)[·]{.sep}[pdf](https://www.tandfonline.com/eprint/BIWMPSZBZZTCGXVF8RQK/full?target=10.1080%2F00324728.2022.2057577)[·]{.sep}[Replication data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FYUB9K9)[·]{.sep}Coverage: [Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2019/05/do-people-really-even-know-what-they-wanted.html)]{.paper-meta}
+[[pdf](https://www.tandfonline.com/eprint/BIWMPSZBZZTCGXVF8RQK/full?target=10.1080%2F00324728.2022.2057577)[·]{.sep}With [Joan Hamory](https://jhamory.oucreate.com/), [Jennifer Johnson-Hanks](https://sociology.berkeley.edu/faculty/jennifer-johnson-hanks), and [Edward Miguel](http://emiguel.econ.berkeley.edu/)[·]{.sep}[Replication data](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi%3A10.7910%2FDVN%2FYUB9K9)[·]{.sep}Coverage: [Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2019/05/do-people-really-even-know-what-they-wanted.html)]{.paper-meta}
 
 <details>
 <summary>Abstract</summary>
@@ -135,9 +140,10 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 ::: {.paper}
 
+[Work in progress]{.paper-status}\
 [Selective memory of past educational goals]{.paper-title}
 
-[In progress[·]{.sep}With [Ao Wang](https://www.ao-wang.org/) and [Lony Bessagnet](https://sites.google.com/view/lonybessagnet/home)]{.paper-meta}
+[With [Ao Wang](https://www.ao-wang.org/) and [Lony Bessagnet](https://sites.google.com/view/lonybessagnet/home)]{.paper-meta}
 
 :::
 
