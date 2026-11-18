@@ -17,10 +17,7 @@
     var f = b.getAttribute("data-filter");
     var n = f === "all" ? papers.length
       : papers.filter(function (p) { return p.getAttribute("data-category") === f; }).length;
-    if (n === 0) { b.hidden = true; return; }
-    b.appendChild(document.createTextNode(" "));
-    var c = document.createElement("span"); c.className = "count"; c.textContent = n;
-    b.appendChild(c);
+    if (n === 0) b.hidden = true;   /* hide a category with no papers */
   });
 
   function apply(f) {

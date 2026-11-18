@@ -270,7 +270,6 @@ main.content > blockquote,
   border-color: var(--accent);
   color: var(--paper);
 }
-.paper-filter .count { opacity: 0.7; font-size: 0.8125rem; }
 .paper[hidden], .theme[hidden] { display: none !important; }
 
 .theme {
