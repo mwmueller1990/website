@@ -5,6 +5,7 @@ description: "Behavioral economist at the Toulouse School of Economics, working 
 include-after-body:
   - text: |
       <script src="assets/js/portrait.js"></script>
+      <script src="assets/js/paper-filter.js"></script>
 ---
 
 <!--
@@ -48,6 +49,15 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 ::::::
 
+```{=html}
+<div class="paper-filter" role="group" aria-label="Show papers by status" hidden>
+<button type="button" data-filter="all" aria-pressed="true">All</button>
+<button type="button" data-filter="published" aria-pressed="false">Published</button>
+<button type="button" data-filter="working" aria-pressed="false">Working papers</button>
+<button type="button" data-filter="progress" aria-pressed="false">Work in progress</button>
+</div>
+```
+
 <!-- ====================================================================== -->
 
 ::::: {.theme}
@@ -56,7 +66,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 :::: {.papers}
 
-::: {.paper}
+::: {.paper category="working"}
 
 [Working paper]{.paper-status}\
 [Under parents' watch: the effect of parental observability on educational choices]{.paper-title}
@@ -70,7 +80,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 :::
 
-::: {.paper}
+::: {.paper category="working"}
 
 [Working paper]{.paper-status}\
 [Under pressure? Experimental evidence of parental and peer observability on students' occupational aspirations]{.paper-title}
@@ -96,7 +106,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 :::: {.papers}
 
-::: {.paper}
+::: {.paper category="working"}
 
 [Working paper]{.paper-status}\
 [Selective memory of past aspirations]{.paper-title}
@@ -110,7 +120,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 :::
 
-::: {.paper}
+::: {.paper category="working"}
 
 [Revise & resubmit, *American Economic Journal: Applied Economics*]{.paper-status .highlight}\
 [The price of identity: overoptimism and congruence concerns]{.paper-title}
@@ -124,7 +134,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 :::
 
-::: {.paper}
+::: {.paper category="published"}
 
 [Published, *Population Studies*, 2022]{.paper-status .highlight}\
 [The illusion of stable fertility preferences]{.paper-title}
@@ -138,7 +148,7 @@ postdoctoral fellow at the [briq Institute on Behavior & Inequality](https://www
 
 :::
 
-::: {.paper}
+::: {.paper category="progress"}
 
 [Work in progress]{.paper-status}\
 [Selective memory of past educational goals]{.paper-title}

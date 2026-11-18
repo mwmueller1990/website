@@ -248,6 +248,31 @@ main.content > blockquote,
 
 /* ------------------------------------------------------------- research -- */
 
+.paper-filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin: 2.5rem 0 -0.75rem;
+}
+.paper-filter button {
+  font: inherit;
+  font-size: 0.875rem;
+  padding: 0.2rem 0.75rem;
+  border: 1px solid var(--rule);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--ink-muted);
+  cursor: pointer;
+}
+.paper-filter button:hover { border-color: var(--ink-faint); color: var(--ink); }
+.paper-filter button[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper);
+}
+.paper-filter .count { opacity: 0.7; font-size: 0.8125rem; }
+.paper[hidden], .theme[hidden] { display: none !important; }
+
 .theme {
   margin: 2.75rem 0 0;
 }
